@@ -1,6 +1,6 @@
 package Controller;
 
-public class DogfightController extends IOrderPerformer{
+public class DogfightController extends IOrderPerform{
 	private int TIME_SLEEP = 30;
 	
 	public DogfightController (IDogfightModel dogfightModel)
@@ -23,7 +23,7 @@ public class DogfightController extends IOrderPerformer{
 		
 	}
 	
-	private void launchMissile(player : int)
+	private void launchMissile(int player)
 	{
 		
 	}

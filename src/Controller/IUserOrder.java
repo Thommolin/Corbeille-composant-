@@ -1,10 +1,12 @@
 package Controller;
 
-public interface IUserOrder extends UserOrder{
-	public getOrder() : Order;
-	public getPlayer() : int;
+public interface IUserOrder{
+	public getPlayer()
+	{
+		return int;
+	}
 	
-	public Order getOrder()
+	public getOrder()
 	{
 		return Order;
 	}

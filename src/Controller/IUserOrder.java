@@ -1,6 +1,6 @@
 package Controller;
 
-public interface IUserOrder {
+public interface IUserOrder extends UserOrder{
 	public getOrder() : Order;
 	public getPlayer() : int;
 	
